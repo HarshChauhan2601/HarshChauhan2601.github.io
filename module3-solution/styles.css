@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    background: grey;
+    color: black;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+.main-box{
+    padding: 10px;
+    margin: 4% auto;
+    width: 90%;
+    background: grey;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+}
+
+.main-box h2{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.main-box p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}

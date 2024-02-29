@@ -1,0 +1,636 @@
+ body{
+   width: 100%;
+   height: 100%;
+   padding: 0px;
+   margin: 0px;
+   overflow-x: hidden;
+ }
+      .line{
+        height: 5px;
+        width: 45px;
+        background: mediumseagreen;
+        margin: 0.2% 0;
+      }
+  
+      /* This is My Navbar */
+      .container-fluid{
+        margin-top: -1rem;
+        height: 75px;
+        font-size: 20px;
+        color: darkslategray;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        justify-content: end;
+        font-weight: 600;
+  
+      }
+  
+      .container-fluid .active{
+        font-weight: 600;
+        color: steelblue;
+      }
+  
+      .container-fluid a:hover{
+        font-weight: 600;
+        color: steelblue;
+      }
+
+      .container-fluid .navbar-brand img{
+        margin-top: -1rem;
+      } 
+      /* This is An End */
+  
+  /* This is My Carousel */
+  .slide{
+    width: 100%;
+    height: 100vh;
+   }
+  .carousel{
+    margin-top: -1rem;
+  }
+  
+  .carousel img{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .carousel-indicators button{
+    color: darkslategray;
+    font-weight: 600;
+  }
+  
+  .carousel .car{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px 24px;
+     position: relative;
+  }
+  
+  .carousel .carousel-item .car-right{
+    width: 45%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  .carousel .carousel-item .car-left{
+    width: 45%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  .carousel .car img{
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 4.5rem;
+  }
+  
+  .carousel .car h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 5rem;
+  }
+  
+  .carousel .car span{
+    color: whitesmoke;
+    font-style: italic;
+    font-size: 16px;
+  }
+  
+  .carousel .car blockquote{
+    color: darkslategray;
+    font-size: 24px;
+    margin-top: 4.567rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+   }
+  
+   .carousel .car blockquote i{
+     font-size: 28px;
+     color: steelblue;
+     font-weight: 600;
+   }
+
+   .carousel .car ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5% 0;
+    color: white;
+    font-size: 17px;
+}
+
+   .carousel .car .car-btn{
+       width: 100%;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       margin-top: 11rem;
+   }
+
+ .carousel .car .car-btn1{
+    border: 1px solid #008f4c;
+    color: white;
+    background: #008f4c;
+   }
+
+   .carousel .car-btn a{
+       border: 1px solid #db690b;
+       color: white;
+       background: #db690b;
+       padding: 10px 20px;
+       border-radius: 3px;
+       font-size: 18px;
+       width: 35%;
+       margin-right: 0.45rem;
+       outline: none;
+       text-decoration: none;
+   }
+
+
+  #car1{
+    background: #101728;
+  }
+  
+  #car2{
+    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  }
+  
+  #car3{
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  }
+  
+  /* This is An End */
+  
+  
+      /* #f4f6f8 */
+      .para{
+        width: 100%;
+        height: 100vh;
+        background: whitesmoke;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: row;
+         flex-wrap: wrap; 
+        justify-content: center;
+       }
+  
+      .para-left{
+        width: 30%;
+       }
+  
+      .para-left img{
+        width: 100%;
+        height: 400px;
+        border-radius: 3px;
+      }
+      .para-right{
+        width: 55%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 3.5rem;
+      }
+      
+      .para-right h2{
+        color: darkslategray;
+        font-weight: 700;
+        font-size: 32px;
+      }
+  
+      .para-right p{
+        color: darkslategray;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+      }
+  
+      .para-right a{
+        color: slateblue;
+        width: 30%;
+        height: 35px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 35px;
+        text-align: center;
+        border-left: 3px solid slateblue;
+        text-decoration: none;
+        margin-top: 1.5rem;
+      }
+  
+      /* This is My Morari Bpau Said Paragraph */
+      .morari{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        padding: 50px 20px;
+         background: #F7F8FF;
+        justify-content: center;
+      }
+  
+      .morari-left{
+        width: 50%;
+        height: fit-content;
+        padding: 15px 20px;
+        background: white;
+        border-radius: 5px;
+        margin-left: 3rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 13rem;
+      }
+  
+      .morari-left blockquote{
+        color: grey;
+        font-size: 22px;
+        font-weight: 600;
+      }
+  
+      .morari-left .fa-quote-left{
+        color: darkslategray;
+        font-weight: 700;
+        font-size: 24px;
+      }
+      .morari-left i{
+     font-size: 16px;
+     color: darkgray;
+     font-weight: 400;
+      }
+  
+      .morari-right{
+        width: 35%;
+        margin-top: 10rem;
+      }
+  
+      .morari-right iframe{
+        border-radius: 5px;
+        height: 230px;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      }
+  
+      /* This is An End */
+  
+  /* This Contains My Videos f8f7f4 
+  
+  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='' preserveAspectRatio='none' viewBox='0 0 1440 541'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1072%26quot%3b)' fill='none'%3e%3crect width='1440' height='541' x='0' y='0' fill='rgba(248%2c 249%2c 251%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c259 C 72%2c276.6 216%2c352.2 360%2c347 C 504%2c341.8 576%2c226.6 720%2c233 C 864%2c239.4 936%2c394.8 1080%2c379 C 1224%2c363.2 1368%2c199 1440%2c154L1440 541L0 541z' fill='rgba(31%2c 124%2c 219%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1072'%3e%3crect width='1440' height='541' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  
+  
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='' height='' preserveAspectRatio='none' viewBox='0 0 1440 541'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1078%26quot%3b)' fill='none'%3e%3crect width='1440' height='541' x='0' y='0' fill='rgba(248%2c 249%2c 251%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c259 C 72%2c276.6 216%2c352.2 360%2c347 C 504%2c341.8 576%2c226.6 720%2c233 C 864%2c239.4 936%2c394.8 1080%2c379 C 1224%2c363.2 1368%2c199 1440%2c154L1440 541L0 541z' fill='rgba(158%2c 206%2c 243%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1078'%3e%3crect width='1440' height='541' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  
+  
+  
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='791' preserveAspectRatio='none' viewBox='0 0 1440 791'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1422%26quot%3b)' fill='none'%3e%3crect width='1440' height='791' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c790 C 288%2c658.4 1152%2c263.6 1440%2c132L1440 791L0 791z' fill='rgba(17%2c 156%2c 201%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1422'%3e%3crect width='1440' height='791' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  */
+  /* This is My Book Section #5c2ede */
+  .book{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+  
+  .book-head{
+    width: 95%;
+    margin: 3% auto;
+    background: white;
+     border-radius: 5px;
+    border-left: 7px solid seagreen;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .book-head h2{
+    color: darkslategray;
+    font-size: 34px;
+    font-weight: 600;
+  }
+  .book-head h2 b{
+    color: steelblue;
+  }
+  
+  
+  .book .book-left{
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .book .book-left img{
+    width: 97%;
+    margin: 2% auto;
+    margin-bottom: 3.54rem;
+    border-radius: 3px;
+    background: white;
+    height: 450px;
+  }
+
+  .book .bk-btn{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      height: fit-content;
+      justify-content: center;
+      padding: 10px;
+  }
+
+  .book .book-left a{
+    border: 1px solid #db690b;
+    color: white;
+    background: #db690b;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-size: 18px;
+    width: 45%;
+    margin: 0 1.5%;
+       outline: none;
+    text-decoration: none;
+  }
+
+  .book .book-left .bk-btn1{
+    border: 1px solid #05994a;
+    color: white;
+    background: #05994a;
+  }
+  
+  .book .book-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    width: 50%;
+    height: fit-content;
+    padding-left: 35px;
+  }
+  
+  .book .book-right .b-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background: white;
+    width: 37%;
+    height: 200px;
+    text-align: center;
+    margin: 2%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+  }
+  
+  .book .book-right .b-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  }
+  
+  .book-right .b-box h3{
+    color: darkslategray;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 0.4rem;
+  }
+  
+  .book-right .b-box p{
+    color: darkslategrey;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .book-right .b-box i{
+    color: steelblue;
+    font-size: 34px;
+    font-weight: 700;
+  
+  }
+  
+  /* This is An End */
+  
+  .videos{
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    background: #f6f4f8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+   
+  
+  .videos .v-head{
+    width: 100%;
+    height: fit-content;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  
+  .videos .v-head h2{
+    color: darkslategray;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .videos .v-head h2 b{
+    color: steelblue;
+  }
+  
+  .videos .v-inner{
+    width: 27%;
+    height: 190px;
+    margin: 3% 2%;
+  }
+  
+  .videos .v-inner iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+  }
+  
+  .videos .btn{
+    width: 100%;
+    height: fit-content;
+    font-size: 17px;
+    text-align: center;
+    outline: none;
+  }
+  
+  .videos .btn a{
+    color: white;
+    background: slateblue;
+         width: 30%;
+        height: 35px;
+          line-height: 35px;
+          padding: 10px 20px;
+        text-align: center;
+        border: 2px solid slateblue;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-top: 2.5rem;
+        outline: none;
+  }
+  
+  /* This is An End of My Videos Section */
+  
+  
+  /* ------------------------------------------ START OF MEDIA QUERIES ----------------------------------------- */
+  /* This is For My ALL MEDIA QUERIES */
+  /* This Are My Media Queries */
+  
+  @media screen and (max-width: 800px){
+
+    .carousel-indicators{
+      display: none;
+    }
+
+    .carousel .car{
+      height: 150vh;
+    }
+
+    .carousel .car img{
+      max-width: 97%;
+      margin: auto;
+      height: 45vh;
+    }
+
+    .carousel .carousel-item .car-left{
+      width: 100%;
+    }
+
+    .carousel .carousel-item .car-right{
+    width: 100%;
+    }
+
+    .carousel .car .car-btn1{
+      width: 97%;
+      margin: 2% auto;
+    }
+
+    .carousel .car a{
+      width: 97%;
+      margin: auto;
+    }
+
+    .para{
+      flex-direction: column;
+      padding: 15px 10px;
+      margin-top: 33rem;
+      height: fit-content;
+     }
+  
+    .para .para-left
+    {
+      width: 100%;
+    }
+
+    .para .para-left img{
+      height: 45vh;
+    }
+
+    .para .para-right{
+      width: 100%;
+      margin: 2% auto;
+    }
+  
+    .para-right a{
+      width: 95%;
+      margin: 2% auto;
+    }
+  
+    .morari{
+      flex-direction: column;
+    }
+  
+    .morari-right{
+      width: 97%;
+     }
+
+    .morari-right{
+      width: 100%;
+    }
+  
+    .morari-right iframe{
+      width: 95%;
+      height: 250px;
+      margin: 2% auto;
+    }
+  
+    .morari-left{
+      width: 97%;
+      margin: auto;
+    }
+    .book{
+      flex-direction: column;
+    }
+  
+    .book .book-left{
+      width: 100%;
+    }
+  
+    .book .book-right{
+      width: 100%;
+      flex-direction: column;
+    }
+  
+   .book .book-right .b-box{
+      width: 93%;
+      margin: 2% auto;
+    }
+
+    .book .bk-btn a{
+      width: 97%;
+      margin: 2% auto;
+    }
+
+    .book .book-right .b-box{
+      width: 97%;
+      margin: 2% auto;
+    }
+
+    .videos{
+      flex-direction: column;
+    }
+  
+    .videos .v-inner{
+      width: 99%;
+    }
+  
+    .videos .v-inner iframe{
+      width: 100%;
+      max-height: 230px;
+      margin: 5% auto;
+
+    }
+  
+    .videos .btn{
+      width: 95%;
+      margin: 2% auto;
+    }
+  
+  
+  
+  }
+  
+  
+  
+  /* This is An End */
+  /* ------------------------------------------ END ------------------------------------- */
+  
